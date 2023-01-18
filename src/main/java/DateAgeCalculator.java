@@ -3,6 +3,11 @@ public class DateAgeCalculator {
     private int yourAge;
     private int dateAge;
 
+    public static void main(String[] args) {
+        DateAgeCalculator calculator = new DateAgeCalculator(24, 23);
+        System.out.println(calculator.beregning());
+    }
+
     public DateAgeCalculator(int yourAge, int dateAge) {
         this.yourAge = yourAge;
         this.dateAge = dateAge;
